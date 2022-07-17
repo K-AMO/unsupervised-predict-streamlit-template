@@ -37,6 +37,8 @@ from utils.data_loader import load_movie_titles
 from recommenders.collaborative_based import collab_model
 from recommenders.content_based import content_model
 
+from PIL import Image
+
 # Data Loading
 title_list = load_movie_titles('resources/data/movies.csv')
 
@@ -53,8 +55,11 @@ def main():
     page_selection = st.sidebar.selectbox("Choose Option", page_options)
     if page_selection == "Recommender System":
         # Header contents
-        st.write('# Movie Recommender Engine')
-        st.write('### EXPLORE Data Science Academy Unsupervised Predict')
+        #st.write('# Data Chronicles')
+
+        image = Image.open('resources/imgs/clogo.jpeg')
+        st.image(image, caption='Company logo')
+        st.write('### Movie Recommender Engine')
         st.image('resources/imgs/Image_header.png',use_column_width=True)
         # Recommender System algorithm selection
         sys = st.radio("Select an algorithm",

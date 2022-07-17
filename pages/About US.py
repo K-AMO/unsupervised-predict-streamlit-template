@@ -45,7 +45,7 @@ title_list = load_movie_titles('resources/data/movies.csv')
 # App declaration
 def main():
 
-    st.title("Data Chronicles")
+    #st.title("Data Chronicles")
 
     image = Image.open('resources/imgs/clogo.jpeg')
     st.image(image, caption='Company logo')

@@ -55,11 +55,11 @@ def main():
     page_selection = st.sidebar.selectbox("Choose Option", page_options)
     if page_selection == "Recommender System":
         # Header contents
-        st.write('# Data Chronicle')
+        st.write('#')
     image = Image.open('resources/imgs/clogo.jpeg')
     st.image(image, caption='Company logo')
         
-    st.markdown("## Stay connect  with us!")
+    st.markdown("## Stay connected with us!")
     
     st.markdown("### email address: ")
     st.markdown("info@datachronicles.co.za")

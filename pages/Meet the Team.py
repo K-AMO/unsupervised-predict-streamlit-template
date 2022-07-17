@@ -55,17 +55,17 @@ def main():
     page_selection = st.sidebar.selectbox("Choose Option", page_options)
     if page_selection == "Recommender System":
         # Header contents
-        st.write('# Data Chronicle')
+        st.write('#')
         
         
         
-    image = Image.open('resources/imgs/clogo.jpeg')
-    st.image(image, caption='Company logo')
+    #image = Image.open('resources/imgs/clogo.jpeg')
+    #st.image(image, caption='Company logo')
         
         
     st.write('# Meet the Team')
-    image = Image.open('resources/imgs/clogo.jpeg')
-    st.image(image, caption='Company logo')
+    image = Image.open('resources/imgs/Ditheto.jpeg')
+    st.image(image, caption='CEO')
     st.markdown("# Ditheto Mathekga")
     st.markdown("# Chief Executive Officer")
     st.markdown("### Email: ditheto.mathekga@datachronicles.co.za")
@@ -93,8 +93,8 @@ def main():
     st.markdown("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     st.markdown("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
-    image = Image.open('resources/imgs/clogo.jpeg')
-    st.image(image, caption='Company logo')
+    image = Image.open('resources/imgs/Sfiso.jpg')
+    st.image(image, caption='SDA')
     st.markdown("# Sfiso Mgidi")
     st.markdown("# Senior Data Analyst")
     st.markdown("### Email: sifiso.mgidi@datachronicles.co.za")
