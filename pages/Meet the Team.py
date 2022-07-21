@@ -74,8 +74,8 @@ def main():
     st.markdown("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     st.balloons() 
     
-    image = Image.open('resources/imgs/clogo.jpeg')
-    st.image(image, caption='Company logo')
+    image = Image.open('resources/imgs/julliet.jpg')
+    st.image(image, caption='DSM')
     st.markdown("# Juliet Bopape")
     st.markdown("# Data Science Manager")
     st.markdown("### Email: juliet.bopape@datachronicles.co.za")    
@@ -84,9 +84,9 @@ def main():
     st.markdown("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     st.balloons() 
     
-    image = Image.open('resources/imgs/clogo.jpeg')
-    st.image(image, caption='Company logo')
-    st.markdown("# Kamogelo Mosekwa")
+    image = Image.open('resources/imgs/kg.jpeg')
+    st.image(image, caption='MLE')
+    st.markdown("# Kamogelo Masekwa")
     st.markdown("# Machine Learning Engineer")
     st.markdown("### Email: kamogelo.mosekwa@datachronicles.co.za")
     st.markdown("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
@@ -103,7 +103,7 @@ def main():
     st.markdown("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
     image = Image.open('resources/imgs/Velly.jpg')
-    st.image(image, caption='Company logo')
+    st.image(image, caption='SWD')
     st.markdown("# Velaphi Mngomezulu")
     st.markdown("# Senior Web Application Developer")
     st.markdown("### Email: vely.mngo@datachronicles.co.za")
